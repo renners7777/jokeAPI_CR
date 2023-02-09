@@ -1,0 +1,44 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+button{
+  display: block;
+  border: solid 1px red;
+  border-radius: 5px;
+  background-color: blue;
+  color: bisque;
+  padding: 5px 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body{
+  background-color: antiquewhite;
+}
+
+p{
+  background-color: aqua;
+  width: 400px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: center;
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
